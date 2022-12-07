@@ -17,7 +17,8 @@ body {
 #pokemon-info {
   width: 250px;
   height: 500px;
-  background-color: cyan;
+  background-color: red;
+  text-align: center;
 }
 
 #pokemon-list {
