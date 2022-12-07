@@ -49,5 +49,7 @@ function updatePokemon(){
   for (let i = 0; i < types.length; i++){
     let type = document.createElement('span')
     type.innerText = types[i]['type']['name'].toUpperCase()
+    type.classList.add('type-box')
+    type.classList.add(types[i]['type']['name'])
   }
 }
