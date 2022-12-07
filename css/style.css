@@ -17,4 +17,5 @@ body {
 #pokemon-info {
   width: 250px;
   height: 500px;
+  background-color: cyan;
 }
