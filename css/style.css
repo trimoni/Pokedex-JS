@@ -63,5 +63,11 @@ body {
 }
 
 .normal {
-  
+  background-color: beige;
+  color: white;
+}
+
+. {
+  background-color: orange;
+  color: white;
 }
