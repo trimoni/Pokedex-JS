@@ -5,6 +5,9 @@ window.onload = async function() {
   // getPokemon(1)
   for (let i = 1; i <= pokemonCount; i++){
     await getPokemon(i)
+
+    let pokemon = document.createElement('div')
+    pokemon.id = i
   }
   console.log(pokedex)
 }
