@@ -146,3 +146,8 @@ body {
   background-color: darkviolet;
   color: white;
 }
+
+#pokemon-description {
+  width: 230px;
+  height: 100px;
+}
