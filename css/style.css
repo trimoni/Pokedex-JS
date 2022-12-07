@@ -12,6 +12,9 @@ body {
   display: flex;
   margin: 0 auto;
   margin-top: 60px;
+
+  background: url('./pokeball.jpg') no repeat;
+  background-size: cover;
 }
 
 #pokemon-info {
