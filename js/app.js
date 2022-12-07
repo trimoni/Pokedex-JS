@@ -13,5 +13,6 @@ async function getPokemon(num) {
   // console.log(pokemon)
 
   let pokemonName = pokemon['name']
+  let pokemonTypes = pokemon ['types']
   
 }
