@@ -15,4 +15,7 @@ async function getPokemon(num) {
   let pokemonName = pokemon['name']
   let pokemonTypes = pokemon['types']
   let pokemonImg = pokemon['sprites']['front_default']
+
+  res = await fetch(pokemon['species']['url'])
+  let pokemonDesc = await res.json()
 }
