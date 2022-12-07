@@ -10,5 +10,8 @@ async function getPokemon(num) {
   
   let res = await fetch(url)
   let pokemon = await res.json()
-  console.log(pokemon)
+  // console.log(pokemon)
+
+  let pokemonName = pokemon['name']
+  
 }
