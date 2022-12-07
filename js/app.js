@@ -18,4 +18,6 @@ async function getPokemon(num) {
 
   res = await fetch(pokemon['species']['url'])
   let pokemonDesc = await res.json()
+
+  console.log(pokemonDesc)
 }
