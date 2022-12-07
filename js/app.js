@@ -19,5 +19,6 @@ async function getPokemon(num) {
   res = await fetch(pokemon['species']['url'])
   let pokemonDesc = await res.json()
 
-  console.log(pokemonDesc)
+  // console.log(pokemonDesc)
+  pokemonDesc = pokemonDesc['flavor_text_entries'][10]['flavor_text']
 }
