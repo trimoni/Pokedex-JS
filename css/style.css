@@ -9,4 +9,7 @@ body {
   border-radius: 10px;
 
   background-color: green;
+
+  margin: 0 auto;
+  margin-top: 60px;
 }
