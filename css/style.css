@@ -64,7 +64,7 @@ body {
 
 .normal {
   background-color: beige;
-  color: white;
+  color: black;
 }
 
 .grass {
@@ -79,12 +79,12 @@ body {
 
 .ice {
   background-color: lightblue;
-  color: white;
+  color: black;
 }
 
 .electric {
   background-color: gold;
-  color: white;
+  color: black;
 }
 
 .fighting {
@@ -94,7 +94,7 @@ body {
 
 .flying {
   background-color: skyblue;
-  color: white;
+  color: black;
 }
 
 .bug {
@@ -114,5 +114,10 @@ body {
 
 .ground {
   background-color: burlywood;
-  color: white;
+  color: black;
+}
+
+.steel {
+  background-color: silver;
+  color: black;
 }
