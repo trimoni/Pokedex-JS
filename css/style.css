@@ -87,12 +87,17 @@ body {
   color: white;
 }
 
-.fighting{
+.fighting {
   background-color: darkred;
   color: white;
 }
 
-.flying{
+.flying {
   background-color: skyblue;
+  color: white;
+}
+
+.bug {
+  background-color: yellowgreen;
   color: white;
 }
