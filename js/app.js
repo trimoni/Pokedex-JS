@@ -22,5 +22,5 @@ async function getPokemon(num) {
   // console.log(pokemonDesc)
   pokemonDesc = pokemonDesc['flavor_text_entries'][10]['flavor_text']
 
-  pokedex[num] = {'name' : pokemonName, 'img' : pokemonImg, 'types' : pokemonTypes, }
+  pokedex[num] = {'name' : pokemonName, 'img' : pokemonImg, 'types' : pokemonTypes, 'desc' : pokemonDesc}
 }
