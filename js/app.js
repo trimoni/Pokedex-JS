@@ -10,4 +10,5 @@ function getPokemon(num) {
   
   let res = fetch(url)
   let pokemon = res.json()
+  console.log(pokemon)
 }
