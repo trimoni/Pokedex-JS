@@ -121,3 +121,9 @@ body {
   background-color: silver;
   color: black;
 }
+
+.dark {
+  background-color: darkgray;
+  color: white;
+}
+
