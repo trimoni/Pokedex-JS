@@ -48,5 +48,6 @@ function updatePokemon(){
   let types = pokedex[this.id]['types']
   for (let i = 0; i < types.length; i++){
     let type = document.createElement('span')
+    type.innerText = types[i]['type']['name'].toUpperCase()
   }
 }
