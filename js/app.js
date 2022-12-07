@@ -38,5 +38,5 @@ async function getPokemon(num) {
 }
 
 function updatePokemon(){
-  document.getElementById('pokemon-img').src = pokedex[this.id]
+  document.getElementById('pokemon-img').src = pokedex[this.id]['img']
 }
