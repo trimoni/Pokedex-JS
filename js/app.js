@@ -3,6 +3,8 @@ let pokedex = {} // {1 : {'name' : bulbasaur, img : url, type : [grass, poison],
 
 window.onload = async function() {
   getPokemon(1)
+  
+  console.log(pokedex)
 }
 
 async function getPokemon(num) {
