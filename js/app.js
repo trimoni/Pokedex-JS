@@ -41,7 +41,7 @@ function updatePokemon(){
   document.getElementById('pokemon-img').src = pokedex[this.id]['img']
 
   let typesDiv = document.getElementById('pokemon-types')
-  while (!typesDiv.firstChild){
+  while (typesDiv.firstChild){
     typesDiv.firstChild.remove()
   }
 
