@@ -7,4 +7,7 @@ window.onload = function() {
 
 function getPokemon(num) {
   let url = "https://pokeapi.co/api/v2/pokemon/" + num.toString()
+  
+  let res = fetch(url)
+  let pokemon = res.json()
 }
