@@ -13,3 +13,8 @@ body {
   margin: 0 auto;
   margin-top: 60px;
 }
+
+#pokemon-info {
+  width: 250px;
+  height: 500px;
+}
