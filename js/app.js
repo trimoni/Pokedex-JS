@@ -9,6 +9,7 @@ window.onload = async function() {
     let pokemon = document.createElement('div')
     pokemon.id = i
     pokemon.innerText = i.toString() + '. ' + pokedex[i]['name'].toUpperCase()
+    pokemon.classList.add('pokemon-name')
   }
 
   console.log(pokedex)
