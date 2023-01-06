@@ -1,4 +1,4 @@
-const pokemonCount = 251
+const pokemonCount = 493
 let pokedex = {} // {1 : {'name' : bulbasaur, img : url, type : [grass, poison], desc : "..."}}
 
 window.onload = async function() {
